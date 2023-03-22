@@ -4,7 +4,8 @@ import { useState } from "react";
 
 import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
-import { PolicyList } from "./policies-list";
+import PolicyList from "./policies-list";
+//import PolicyList from "./policies-list"
 
 export default function Policy() {
   const [page, setPage] = useState(1);
