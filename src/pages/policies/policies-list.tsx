@@ -34,7 +34,7 @@ type SearchMessagesFormData = {
   search: string;
 };
 
-export function PolicyList() {
+export default function PolicyList() {
   const [page, setPage] = useState(1)
   const [searchQuery, setSearchQuery] = useState('')
 
